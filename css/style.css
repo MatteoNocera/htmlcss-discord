@@ -81,6 +81,7 @@
     --dis-header: #3161E0;
     --dis-white: #ffffff;
     --dig-light: #f6f6f6;
+    --dis-dark: #23272A;
 
 }
 
@@ -146,7 +147,7 @@ header {
 
 .login > a {
     background-color: var(--dis-white);
-    color: black;
+    color: var(--dis-dark);
     padding: 0.3rem 1rem;
     border-radius: 25px;
 }
@@ -157,7 +158,7 @@ header {
 
 /* #endregion Header */
 
-/* #region Head_img */
+/* #region Jumbotron */
 
 .container_jumbo {
     width: 50%;
@@ -173,7 +174,7 @@ header {
     background-image: url(/img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 620px;
     
     
 }
@@ -194,24 +195,24 @@ h1 {
 
 .download a {
     text-align: center;
-    padding: 0.3rem 0.5rem;
+    padding: 0.3rem 1.5rem;
     border-radius: 25px;
     
 }
 
 .mac_down {
-    color: black;
+    color: var(--dis-dark);
     background-color: var(--dis-white);
 }
 
 .open_dis {
     color: var(--dis-white);
-    background-color: black;
+    background-color: var(--dis-dark);
 }
 
 
 
-/* #endregion Head_img */
+/* #endregion Jumbotron */
 
 /* #region Main */
 
