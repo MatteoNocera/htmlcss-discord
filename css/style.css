@@ -76,7 +76,7 @@
     --dis-col_main: #8FE2AA;
     --dis-card: #85C0C6;
     
-    --dis-foot: #4574FE;
+    --dis-foot: #23272A;
     --dis-dashed: black;
     --dis-header: #3161E0;
     --dis-white: #ffffff;
@@ -162,7 +162,7 @@ header {
 /* #region Jumbotron */
 
 .container_jumbo {
-    width: 50%;
+    width: 40%;
     margin: auto;
     padding-top: 3rem;
 }
@@ -303,8 +303,10 @@ h3 {
 
 /* #region Footer */
 
-/* .foot {
+.foot {
     background-color: var(--dis-foot);
+    min-height: 500px;
+    color: var(--dis-white);
 }
 
 
@@ -327,8 +329,22 @@ h3 {
 
 .col_foot {
     height: 100%;
-} */
+}
 
+.col_sx h2 {
+    color: var(--dis-text_foot);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#ita {
+    width: 2rem;
+}
+
+span {
+    font-size: 1.5rem;
+    color: var(--dis-white);
+}
 
 
 /* #endregion Footer */
