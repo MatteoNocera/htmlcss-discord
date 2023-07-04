@@ -159,14 +159,54 @@ header {
 
 /* #region Head_img */
 
-.jumbotron {
-    padding: 3rem;
+.container_jumbo {
+    width: 50%;
+    margin: auto;
+    padding-top: 3rem;
 }
-.head_img {
-    background-color: var(--dis-back-img);
-    height: 300px;
-    width: 100%;
+
+.row_jumbo {
+    justify-content: center;
+}
+
+.jumbotron {
+    background-image: url(/img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
     
+    
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.container_jumbo p, .container_jumbo h1 {
+    text-align: center;
+    color: var(--dis-white);
+    padding-bottom: 2rem;
+}
+
+.download {
+    justify-content: space-evenly;
+}
+
+.download a {
+    text-align: center;
+    padding: 0.3rem 0.5rem;
+    border-radius: 25px;
+    
+}
+
+.mac_down {
+    color: black;
+    background-color: var(--dis-white);
+}
+
+.open_dis {
+    color: var(--dis-white);
+    background-color: black;
 }
 
 
