@@ -80,7 +80,7 @@
     --dis-dashed: black;
     --dis-header: #3161E0;
     --dis-white: #ffffff;
-    --dig-light: #f6f6f6;
+    --dis-light: #f6f6f6;
     --dis-dark: #23272A;
 
 }
@@ -216,6 +216,24 @@ h1 {
 
 /* #region Main */
 
+.wave, .wave_reverse {
+    width: 50%;
+    display: inline;
+}
+
+.wave_reverse {
+    rotate: x 180deg;
+    width: 100%;
+}
+
+.wave {
+    margin-bottom: -1rem;
+}
+
+.bis {
+    rotate: y 180deg;
+}
+
 
 
 .white {
@@ -224,10 +242,21 @@ h1 {
     padding-top: 3rem;
 }
 
+.light {
+    /* background-image: url(/img/wave.svg); */
+    
+    background-color: var(--dis-light);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
 
+.light .col_img {
+    text-align: end;
+}
 
 .col_img {
     width: calc(100% / 12 * 8);
+    
 }
 
 .col_text {
