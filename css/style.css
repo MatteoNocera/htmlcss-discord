@@ -67,17 +67,17 @@
 }
 
 :root {
-    /* --dis-light: #D8D9DB;
-    --dis-dark: #BCBCBE;
+    
+    
     --dis-col_head: #D9817D;
     --dis-back-img: #95A8E3;
     --dis-cont: #FBDB9E;
     --dis-row: #CEC2AA;
     --dis-col_main: #8FE2AA;
     --dis-card: #85C0C6;
-    --dis-white: #F9F9F9;
+    
     --dis-foot: #4574FE;
-    --dis-dashed: black; */
+    --dis-dashed: black;
     --dis-header: #3161E0;
     --dis-white: #ffffff;
     --dig-light: #f6f6f6;
@@ -220,7 +220,8 @@ h1 {
 
 .white {
     background-color: var(--dis-white);
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 
 
@@ -231,6 +232,17 @@ h1 {
 
 .col_text {
     width: calc(100% / 12 * 4);
+    padding-top: 2rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card p {
+    padding-top: 1rem;
+    line-height: 1.5rem;
 }
 
 
@@ -239,7 +251,7 @@ h1 {
 
 /* #region Footer */
 
-.foot {
+/* .foot {
     background-color: var(--dis-foot);
 }
 
@@ -263,7 +275,7 @@ h1 {
 
 .col_foot {
     height: 100%;
-}
+} */
 
 
 
