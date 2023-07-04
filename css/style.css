@@ -1,0 +1,174 @@
+/* #region Common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dis-light: #D8D9DB;
+    --dis-dark: #BCBCBE;
+    --dis-col_head: #D9817D;
+    --dis-back-img: #95A8E3;
+    --dis-cont: #FBDB9E;
+    --dis-row: #CEC2AA;
+    --dis-col_main: #8FE2AA;
+    --dis-card: #85C0C6;
+    --dis-white: #F9F9F9;
+    --dis-foot: #4574FE;
+    --dis-dashed: black;
+}
+
+/* section {
+    min-height: 300px;
+} */
+
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    /* padding: 1rem 0; */
+    display: flex;
+    height: 100%;
+}
+
+
+/* #endregion Common */
+
+/* #region Header */
+
+.debug nav {
+    height: 75px;
+    background-color: var(--dis-dark)
+}
+
+header {
+    background-color: var(--dis-light);
+}
+
+.debug .col_head {
+    background-color: var(--dis-col_head);
+    height: 100%;
+    border: 1px dashed var(--dis-dark);
+}
+
+.lateral {
+    width: calc(100% / 12 * 2);
+}
+
+.central {
+    width: calc(100% / 12 * 8);
+}
+/* #endregion Header */
+
+/* #region Head_img */
+
+.jumbotron {
+    padding: 3rem;
+}
+.head_img {
+    background-color: var(--dis-back-img);
+    height: 300px;
+    width: 100%;
+    
+}
+
+.debug .principal {
+    width: 50%;
+    background-color: var(--dis-dark);
+    height: 75%;
+}   
+
+/* #endregion Head_img */
+
+/* #region Main */
+
+
+
+.white {
+    background-color: var(--dis-white);
+    padding-bottom: 2rem;
+}
+
+.debug .light, .debug .final_sec {
+    background-color: var(--dis-light);
+}
+
+.debug .sect_cont {
+    background-color: var(--dis-cont);
+    height: 300px;
+}
+
+.debug .sect_row {
+    background-color: var(--dis-row);
+    height: 80%;
+}
+
+.debug .col_img, .debug .col_text, .debug .col_sx {
+    background-color: var(--dis-col_main);
+}
+
+.debug [class^="col"] {
+    border: 1px dashed var(--dis-dashed);
+}
+
+.col_img {
+    width: calc(100% / 12 * 8);
+}
+
+.col_text {
+    width: calc(100% / 12 * 4);
+}
+
+.debug .card {
+    height: 100%;
+    background-color: var(--dis-card);
+}
+
+.debug .final_cont {
+    background-color: var(--dis-cont);
+    height: 600px;
+}
+
+/* #endregion Main */
+
+/* #region Footer */
+
+.foot {
+    background-color: var(--dis-foot);
+}
+
+
+.foot_row {
+    height: 70%;
+    justify-content: space-evenly;
+}
+
+.col_sx {
+    width: calc(100% / 12 * 3);
+}
+
+.col_centr {
+    width: calc(100% / 12 * 2);
+}
+
+.last_row {
+    height: 30%;
+}
+
+.col_foot {
+    height: 100%;
+}
+
+.debug .last_row {
+    background-color: var(--dis-dark)
+}
+
+.debug .last_row > .central {
+    background-color: var(--dis-dark);
+}
+
+/* #endregion Footer */
