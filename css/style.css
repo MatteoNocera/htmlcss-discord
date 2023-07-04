@@ -82,6 +82,7 @@
     --dis-white: #ffffff;
     --dis-light: #f6f6f6;
     --dis-dark: #23272A;
+    --dis-text_foot: #8EA1E1;
 
 }
 
@@ -269,12 +270,34 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    font-size: 2rem;
+}
+
+ .final_cont {
+    text-align: center;
+ }
+
+
 .card p {
     padding-top: 1rem;
     line-height: 1.5rem;
 }
 
 
+
+.link_mac {
+    padding-top: 3rem;
+}
+
+.link_mac a {
+    background-color: var(--dis-text_foot);
+    color: var(--dis-white);
+    text-align: center;
+    padding: 0.3rem 1.5rem;
+    border-radius: 25px;
+    
+}
 
 /* #endregion Main */
 
