@@ -86,9 +86,9 @@
 
 }
 
-/* section {
-    min-height: 300px;
-} */
+body {
+    min-width: 1200px;
+}
 
 .container {
     width: 80%;
@@ -217,10 +217,10 @@ h1 {
 
 /* #region Main */
 
-.wave, .wave_reverse {
+/* .wave, .wave_reverse {
     width: 50%;
     display: inline;
-}
+} */
 
 .wave_reverse {
     rotate: x 180deg;
@@ -229,6 +229,7 @@ h1 {
 
 .wave {
     margin-bottom: -1rem;
+    width: 100%;
 }
 
 .bis {
