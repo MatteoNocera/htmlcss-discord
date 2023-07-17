@@ -172,7 +172,7 @@ header {
 }
 
 .jumbotron {
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 620px;
